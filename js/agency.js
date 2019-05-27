@@ -25,6 +25,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+//collapse
 $('.collapse').on('show.bs.collapse', function (e) {
     if($('#myPass').val().match(/MingPractice/)){
         console.log('');
